@@ -70,7 +70,7 @@ public class SecurityConfig {
         config.setAllowedOrigins(Arrays.asList(
                 "http://localhost:3000",
                 "http://localhost:5173",
-                "https://medi-connect-platform.vercel.app"
+                "https://medibotnew.vercel.app/"
         ));
         // Added PATCH explicitly for the Consultation Notes module
         config.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"));
