@@ -212,7 +212,7 @@ public class DoctorService {
     }
 
     // --- MAPPING HELPERS ---
-    private DoctorResponse mapToDoctorResponse(Doctor doctor) {
+    public DoctorResponse mapToDoctorResponse(Doctor doctor) {
         return DoctorResponse.builder()
                 .id(doctor.getId())
                 .fullName(doctor.getUser().getFirstName() + " " + doctor.getUser().getLastName())

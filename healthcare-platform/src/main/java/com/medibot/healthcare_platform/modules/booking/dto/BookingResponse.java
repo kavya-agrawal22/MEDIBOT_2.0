@@ -9,7 +9,8 @@ import java.util.UUID;
 @Builder
 public class BookingResponse {
     private UUID bookingId;
-    private String doctorName;
+    private String doctorName;  // For the Patient
+    private String patientName; // ADD THIS: For the Doctor
     private LocalDateTime appointmentTime;
     private String status;
     private String meetingLink;

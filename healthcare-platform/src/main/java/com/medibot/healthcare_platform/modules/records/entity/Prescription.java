@@ -4,8 +4,8 @@ import jakarta.persistence.*;
 import lombok.*;
 import java.util.UUID;
 
-@Entity
-@Table(name = "prescriptions")
+@Entity(name = "MedicalRecordPrescription") // Add this name attribute
+@Table(name = "medical_record_prescriptions")
 @Getter @Setter @NoArgsConstructor @AllArgsConstructor @Builder
 public class Prescription {
     @Id

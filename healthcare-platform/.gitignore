@@ -1,42 +1,36 @@
-# --- Build & Output ---
-target/
-dist/
-build/
-bin/
-out/
-**/node_modules/
-**/__pycache__/
-**/*.pyc
-**/.venv/
-**/maven-wrapper.jar
-
-# --- Environment & Secrets (CRITICAL) ---
-.env
-.env.local
-.env.*
-!.env.example
-application.properties
-application.yml
-**/src/main/resources/application.properties
-**/src/main/resources/application.yml
-
-# --- IDE & System ---
-.idea/
-.vscode/
-*.iml
-*.iws
-*.ipr
-.project
-.classpath
-.settings/
-.DS_Store
-Thumbs.db
-
-# --- Logs ---
-*.log
-**/logs/
-
-# --- Monorepo Specific ---
-# Keep your documentation but ignore large assets
 HELP.md
-architecture.png
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Security & Secrets ###
+.env

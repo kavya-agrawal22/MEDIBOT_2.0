@@ -9,4 +9,6 @@ import java.util.UUID;
 public class DepartmentResponse {
     private UUID id;
     private String name;
+    private String specialty;
+    private Double consultationFee; // Added for the Payment/Video Call logic
 }

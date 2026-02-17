@@ -29,4 +29,7 @@ public class Consultation {
 
     @CreationTimestamp
     private LocalDateTime createdAt;
+
+    @Column(name = "room_id")
+    private String roomId; // Add this field to your existing Consultation entity
 }
