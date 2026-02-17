@@ -59,7 +59,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Replace with your actual FastAPI Render URL
-SELF_PING_URL = "https://medibot-ai-service.onrender.com/"
+SELF_PING_URL = "https://medibot-ai-service-z0rv.onrender.com/"
 
 def ping_self():
     """Function to ping the root endpoint to keep the service awake."""
