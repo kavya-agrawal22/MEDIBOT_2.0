@@ -20,7 +20,7 @@ public class DatabasePinger {
 
     // This will pull your public URL from Render environment variables
     // If not set, it defaults to your known backend URL
-    @Value("${APP_PUBLIC_URL:https://mediconnectbackend-cqu6.onrender.com}")
+    @Value("${APP_PUBLIC_URL:https://mediconnectbackend-47oq.onrender.com/}")
     private String appUrl;
 
     /**
