@@ -1,3 +1,4 @@
+
 package com.medibot.healthcare_platform.common.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
