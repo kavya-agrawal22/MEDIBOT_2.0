@@ -633,7 +633,7 @@ const NearbyHospitals = () => {
     try {
       const token = localStorage.getItem("accessToken");
       // const backendUrl = import.meta.env.VITE_BACKEND_URL || "http://localhost:8080";
-      const backendUrl = "https://mediconnectbackend-cqu6.onrender.com";
+      const backendUrl = "https://mediconnectbackend-47oq.onrender.com";
       
       const response = await axios.get(
         `${backendUrl}/api/maps/nearby?lat=${lat}&lng=${lng}`,
