@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const api = axios.create({
   // FIX: Explicitly append /api so it matches your Spring Boot paths
-  @RequestMapping                             
+                              
   baseURL: import.meta.env.PROD 
     ? "https://mediconnectbackend-47oq.onrender.com/api" 
     : "/api",
